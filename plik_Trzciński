@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <html lang="pl-PL"
+    <head>
+        <meta charset="utf-8">
+        <title >Plik Trzciński</title>
+    </head>
+
+    <body>
+        <img src="obrazy/file.svg">
+        <a href="pliki/plik.gif">wesoły-babcia-kreskówka-portret.zip</a> <br>
+        <a href="/index.html">wróć</a>
+
+    </body>
+</html>
