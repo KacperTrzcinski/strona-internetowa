@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+    <html lang="pl-PL"
+    <head>
+        <meta charset="utf-8">
+        <title>Poczta Trzciński</title>
+    </head>
+
+    <body>
+        <a href="mailto:kacper.trzcinskl@gmail.com"><img src="obrazy/mail.jpg" border="0" width="70" height="50" align="left"> poczta do kacpra</a> <br>
+        <a href="/index.html">wróć</a>
+
+    </body>
+</html>
