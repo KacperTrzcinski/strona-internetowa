@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <html lang="pl-PL"
+    <head>
+        <meta charset="utf-8">
+        <title>Formularz Trzciński</title>
+    </head>
+
+    <body>
+        <img src="obrazy/form.png">
+        <p>Tutaj będzie formularz</p>
+        <a href="/index.html">wróć</a>
+
+    </body>
+</html>
