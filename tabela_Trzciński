@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <html lang="pl-PL"
+    <head>
+        <meta charset="utf-8">
+        <title>Tabela Trzciński</title>
+    </head>
+
+    <body>
+        <img src="tabela.jpg">
+        <p>Tutaj będzie tabela</p>
+        <a href="/index.html">wróć</a>
+
+    </body>
+</html>
