@@ -1,0 +1,107 @@
+<body style="background-color: #00ff80;">
+
+    <h2>Formularz zgłoszeniowy na stanowisko budowlańca</h2>
+    
+    <form action="mailto:franekrogowski4@gmail.com" method="POST" enctype="text/plain">
+    
+        <fieldset>
+            <legend>Twoje Dane</legend>
+    
+            <label for="imie">Imię:</label><br>
+            <input type="text" id="imie" name="imie" maxlength="20" required><br><br>
+    
+            <label for="nazwisko">Nazwisko:</label><br>
+            <input type="text" id="nazwisko" name="nazwisko" maxlength="20" required><br><br>
+    
+            <label for="email">Adres e-mail:</label><br>
+            <input type="email" id="email" name="email" maxlength="30" required><br><br>
+    
+            <label for="wiek">Wiek:</label><br>
+            <input type="number" id="wiek" name="wiek" min="18" max="100" required><br><br>
+    
+            <label for="haslo">Hasło (opcjonalnie):</label><br>
+            <input type="password" id="haslo" name="haslo"><br><br>
+        </fieldset>
+    
+        <br>
+    
+        <fieldset>
+            <legend>Doświadczenie i umiejętności</legend>
+    
+            <label>Jakie masz doświadczenie w pracy budowlanej?</label><br>
+            <input type="radio" id="poczatkujacy" name="doswiadczenie" value="poczatkujacy">
+            <label for="poczatkujacy">Początkujący</label><br>
+            <input type="radio" id="sredniozaawansowany" name="doswiadczenie" value="sredniozaawansowany">
+            <label for="sredniozaawansowany">Średniozaawansowany</label><br>
+            <input type="radio" id="zaawansowany" name="doswiadczenie" value="zaawansowany" checked>
+            <label for="zaawansowany">Zaawansowany</label><br><br>
+    
+            <label>Specjalizacje:</label><br>
+            <input type="checkbox" id="murarz" name="specjalizacja" value="murarz">
+            <label for="murarz">Murarz</label><br>
+            <input type="checkbox" id="zbrojarz" name="specjalizacja" value="zbrojarz">
+            <label for="zbrojarz">Zbrojarz</label><br>
+            <input type="checkbox" id="cieplownik" name="specjalizacja" value="cieplownik">
+            <label for="cieplownik">Cieśla</label><br>
+            <input type="checkbox" id="elektryk" name="specjalizacja" value="elektryk">
+            <label for="elektryk">Elektryk</label><br><br>
+    
+            <label>Umiejętności dodatkowe:</label><br>
+            <input type="checkbox" id="spawanie" name="umiejetnosci" value="spawanie">
+            <label for="spawanie">Spawanie</label><br>
+            <input type="checkbox" id="obsuga_komputera" name="umiejetnosci" value="obsuga_komputera">
+            <label for="obsuga_komputera">Obsługa komputera</label><br>
+            <input type="checkbox" id="operowanie_wynajmem_sprzetu" name="umiejetnosci" value="operowanie_wynajmem_sprzetu">
+            <label for="operowanie_wynajmem_sprzetu">Obsługa sprzętu budowlanego</label><br><br>
+        </fieldset>
+    
+        <br>
+    
+        <fieldset>
+            <legend>Preferencje dotyczące pracy</legend>
+    
+            <label for="preferencja1">Rodzaj pracy:</label><br>
+            <select id="preferencja1" name="preferencja1">
+                <option value="praca_stacjonarna" selected>Praca stacjonarna</option>
+                <option value="praca_na_odleglosc">Praca na odległość</option>
+                <option value="praca_terenowa">Praca terenowa</option>
+                <option value="praca_hybrydowa">Praca hybrydowa</option>
+            </select><br><br>
+    
+            <label for="preferencja2">Rodzaj budowy:</label><br>
+            <select id="preferencja2" name="preferencja2">
+                <option value="budowa_mieszkalna">Budowa mieszkaniowa</option>
+                <option value="budowa_przemyslowa">Budowa przemysłowa</option>
+                <option value="renowacje">Renowacje</option>
+                <option value="inne">Inne</option>
+            </select><br><br>
+    
+            <label for="preferencja3">Rodzaj umowy:</label><br>
+            <select id="preferencja3" name="preferencja3">
+                <option value="umowa_o_prace">Umowa o pracę</option>
+                <option value="umowa_zlecenie">Umowa zlecenie</option>
+                <option value="umowa_o_dzielo">Umowa o dzieło</option>
+                <option value="umowa_tymczasowa">Umowa tymczasowa</option>
+            </select><br><br>
+        </fieldset>
+    
+        <br>
+    
+        <fieldset>
+            <legend>Uwagi dodatkowe</legend>
+    
+            <label for="uwagi">Uwagi i komentarze:</label><br>
+            <textarea id="uwagi" name="uwagi" rows="5" cols="40"></textarea><br><br>
+        </fieldset>
+    
+        <br>
+    
+        <button type="button" onclick="alert('Zgłoszenie zostało zapisane.')">Zgłoszenie</button>
+        <button type="button" onclick="alert('Formularz został zresetowany.')">Reset</button>
+        <input type="submit" value="WYŚLIJ">
+        <input type="reset" value="CZYŚĆ">
+    
+    </form>
+    
+    </body>
+    
